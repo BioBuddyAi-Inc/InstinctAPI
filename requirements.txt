@@ -3,4 +3,4 @@ flask_cors
 numpy
 opencv-python
 pillow
-tensorflow
+tensorflow==2.15.0  # or another version that works with Python 3.10
