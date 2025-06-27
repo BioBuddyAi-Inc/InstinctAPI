@@ -2,6 +2,6 @@ services:
   - type: web
     name: instinct-api
     env: python
+    runtime: python3.10
     buildCommand: pip install -r requirements.txt
     startCommand: python api.py
-    runtime: python3.10
