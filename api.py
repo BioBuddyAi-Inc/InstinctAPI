@@ -3,7 +3,6 @@ import base64
 import numpy as np
 import cv2
 from flask_cors import CORS
-from tensorflow.keras.models import load_model
 import os
 import torch
 from cnn_snake import SnakeNet
