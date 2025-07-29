@@ -39,7 +39,7 @@ def home():
 
 @app.route("/classify", methods=["POST"])
 def classify_image():
-    print("🔥 Received request to /classify")
+    print("Received request to /classify")
 
     try:
         data = request.get_json(force=True)
@@ -53,7 +53,7 @@ def classify_image():
         img = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
 
         print("Preprocessing image")
-        img = cv2.resize(img, (224, 224))  # adjust if your model uses a different size
+        img = cv2.resize(img, (224, 224))  # adjust model needs to use a different size
         img = img / 255.0
         img = np.expand_dims(img, axis=0)
 
@@ -74,4 +74,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port, debug=False)
 
-    print("🚀 Server started on port", port)
+    print("Server started on port", port)
