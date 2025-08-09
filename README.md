@@ -10,7 +10,7 @@
 - **Python-first API**: Everything is accessible via `api.py`.
 - **Test suite included**: Contains basic tests in `test_api.py`.
 - **Shell script & containerization**: `build.sh` likely helps with setup or container build processes.
-- **AGPL-3.0 licensed**: Free to use and modify under AGPL-3.0 terms. :contentReference[oaicite:0]{index=0}
+- **AGPL-3.0 licensed**: Free to use and modify under AGPL-3.0 terms
 
 ---
 
