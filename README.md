@@ -35,22 +35,23 @@
 
 ## Usage
 
-1. **Install dependencies**:  
+1. **Install dependencies**:
+   
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the API server:
+2. Run the API server:
 
 ```bash
 python api.py
 ```
-Test the API:
+3. Test the API:
 
 ```bash
 python test_api.py
 ```
-Build or containerize (if applicable):
+4. Build or containerize (if applicable):
 
 ```bash
 ./build.sh
