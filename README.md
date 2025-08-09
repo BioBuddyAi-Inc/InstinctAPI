@@ -41,14 +41,14 @@
    ```
 Run the API server:
 
-bash
+```bash
 python api.py
+```
 Test the API:
 
-bash
-Copy
-Edit
+```bash
 python test_api.py
+```
 Build or containerize (if applicable):
 
 bash
