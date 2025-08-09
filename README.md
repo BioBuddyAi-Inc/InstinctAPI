@@ -51,7 +51,6 @@ python test_api.py
 ```
 Build or containerize (if applicable):
 
-bash
-Copy
-Edit
+```bash
 ./build.sh
+```
